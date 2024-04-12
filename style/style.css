@@ -41,8 +41,7 @@ button{
     color: #424242;
     }
 ul{
-    display: flex;
-    
+    display: flex;   
 }
 .header-menu>li{
     align-items: center;
@@ -64,25 +63,53 @@ ul{
     align-items: center;
     margin-right: 30px;
 }
-.header-contack>ul>li>a{
+.contact{
+    display: flex;
+    align-items: center;
+}
+.tel{
+    display: flex;
+    align-items: center;
+    margin-right: 58px;
+}
+.tel>a{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 25px;
     line-height: 104%;
     color: #424242;
+    margin-left: 22px;
 }
+.social>a{
+    margin-right: 26px;
+}
+.social>a:last-child{
+    margin:0;
+}
+.header-menu>li>a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    color: #424242;
+}    
 
 
 
 
 
 /*--------------------- selection1----------------- */
-
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0 10px;
+}
 .woman{
-    height: 289px;
+    height: 598px;
     background-color: #eef3ed;
     width: 100%;
-
+    box-sizing: border-box;
 }
 
 .woman-text{
@@ -93,18 +120,20 @@ ul{
     width: 100%;
     height: 100%;
     font-family: "Montserrat", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
-    line-height: 130%;
+    line-height: 115%;
     color: #424242;
     flex-direction:column;
     
 }
-.woman-text>.text-text{
-    margin-top: 71px;
-    
+.text-text>p:first-child{
+    padding-top: 71px;
 }
-
+.text-text>p:last-child{
+    padding-top: 20px;
+    max-width: 419px;
+}
 .ppp{
     font-family: "Montserrat";
     font-weight: 700;
@@ -112,20 +141,38 @@ ul{
     line-height: 100%;
     color: #55a630;
     max-width: 496px;
+    padding-top: 20px;
 }
-.buttons>button{
+.buttons{
+    margin-top: 57px;
+}
+.reg{
     font-family: "Montserrat";
     font-weight: 600;
     font-size: 18px;
     line-height: 144%;
     text-align: center;
     color: #fff;
-    display: inline-flex;
     background: #55a630;
     cursor: pointer;
     border: none;
+    margin-bottom: 120px;
+    width: 285px;
+    height: 66px;
 }
-
+.ub{
+    border: 1px solid #55a630;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 144%;
+    text-align: center;
+    color: #55a630;
+    cursor: pointer;
+    text-align: center;
+    width: 285px;
+    height: 66px;
+    background: transparent;
+}
 
 
 /*--------------------- selection2 ----------------- */
@@ -134,16 +181,29 @@ ul{
     border-radius: 4px;
     width: 1200px;
     height: 212px;
-    box-shadow: -2px 2px 20px 0 rgba(66, 66, 66, 0.15);
+    box-shadow: -2px 2px 20px 0 rgba(7, 7, 7, 0.274);
     background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 54px 64px;
+    margin-top: -23px;
+    margin-left: 120px;
+    box-sizing: border-box;
 }
-.numbers{
-    font-family:"Montserrat";
+.item>p:first-child{
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 45px;
     line-height: 100%;
     text-align: center;
     color: #55a630;
 }
-
+.item>p:last-child{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 122%;
+    text-align: center;
+    color: #424242;
+}
 

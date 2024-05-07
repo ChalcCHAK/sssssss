@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>  
     <link rel="stylesheet" href="/style/style.css">
 
 </head>
@@ -93,11 +95,94 @@
         </div> 
         </div>
     </section>
-    <section></section>
+    <section class="slider">
+        <div class="container">
+            <h1 class="kkk1">Курсы обучения</h1>
+            <div class="look">
+                 <div class="swiper slider">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide slide-item">
+                        <div class="item1">
+                            <img src="img/Vector 1.svg" alt="птица" class="bird">
+                            <p class="kurs">Куры для медиков</p>
+                            <h3 class="kun">Канюльные техники</h3>
+                            <button class="off1">Оффлайн</button>
+                            <p class="date">1-2 мая</p>
+                            <div class="box">
+                                <p>Краткое описание</p>
+                                <p>Что-то о курсе  </p>     
+                                <p> Пару фактов  </p>        
+                                <p> Краткое описание </p>
+                           </div>
+                           <img src="img/голова.png" alt="голова">
+                                <span class="span">Свободно 2 из 15 мест</span>
+                                <button class="reg10">Зарегестрироваться</button>
+                                <button class="reg11">подродробнее</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide-item2">
+                        <img src="img/Vector 1.svg" alt="птица" class="bird">
+                        <p class="kurs">Курс для медиков</p>
+                    <h3 class="mes">Мезотерапия и биоревителизация</h3>
+                    <span class="on1">Онлайн</span>
+                    <p class="date">15 - 20 мая</p>
+                    <div class="box">
+                         <p>Краткое описание</p>
+                         <p>Что-то о курсе  </p>     
+                         <p> Пару фактов  </p>        
+                         <p> Краткое описание </p>
+                    </div>
+                     <img src="img/голова.png" alt="голова">
+                        <span class="span">Свободно 2 из 15 мест</span>
+                        <button class="reg12">Зарегестрироваться</button>
+                        <button class="reg13">подродробнее</button>
+                    </div>
+                    <div class="swiper-slide slide-item3">
+                        <img src="img/Vector 1.svg" alt="птица" class="bird">
+                        <p class="item-text">Курс для медиков</p>
+                        <h3>Биогель - новое в косметологии</h3>
+                        <span class="mast">Мастер-класс</span>
+                        <p class="date">2 - 5 августа</p>
+                        <div class="box">
+                             <p>Краткое описание</p>
+                             <p>Что-то о курсе  </p>     
+                             <p> Пару фактов  </p>        
+                             <p> Краткое описание </p>
+                        </div>
+                        <img src="img/голова.png" alt="голова">
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+               
+        </div>
+    </section>
     <section></section>
     <section></section>
     <section></section>
     <section></section>
     <script src="script/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".slider", {
+          slidesPerView: 3,
+          spaceBetween: 59,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        navigation: {
+                        nextEl: ".button-next",
+                        prevEl: ".button-prev",
+        },
+            loop: true,
+            autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+     });
+      </script>
 </body>
 </html>

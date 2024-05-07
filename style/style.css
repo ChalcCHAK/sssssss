@@ -124,7 +124,6 @@ ul{
     font-size: 20px;
     line-height: 115%;
     color: #424242;
-    flex-direction:column;
     
 }
 .text-text>p:first-child{
@@ -181,13 +180,13 @@ ul{
     border-radius: 4px;
     width: 1200px;
     height: 212px;
+    margin: 0 auto;
     box-shadow: -2px 2px 20px 0 rgba(7, 7, 7, 0.274);
     background: #fff;
     display: flex;
     justify-content: space-between;
     padding: 54px 64px;
     margin-top: -23px;
-    margin-left: 120px;
     box-sizing: border-box;
 }
 .item>p:first-child{
@@ -206,4 +205,32 @@ ul{
     text-align: center;
     color: #424242;
 }
+.look{
+    background: url('../img/Фон\ \(линии\).png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+}
 
+
+
+/*--------------------- selection3 ----------------- */
+
+
+.kkk1{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 80%;
+    text-align: center;
+    padding-top: 177px;
+    color: #424242;
+}
+.kkk2{
+    background-image: url('../img/Фон\ \(линии\).png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    width: 100%;
+    height: 100%;
+}

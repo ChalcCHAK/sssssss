@@ -205,13 +205,20 @@ ul{
     text-align: center;
     color: #424242;
 }
+.slider-box{
+    position: relative;
+}
+
 .look{
     background: url('../img/Фон\ \(линии\).png');
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: top;
+    height:790px ;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
-
 
 
 /*--------------------- selection3 ----------------- */

@@ -95,11 +95,12 @@
         </div> 
         </div>
     </section>
-    <section class="slider">
+    <section class="slider-box">
         <div class="container">
             <h1 class="kkk1">Курсы обучения</h1>
             <div class="look">
-                 <div class="swiper slider">
+             <div>
+                <div class="swiper slider">
                     <div class="swiper-wrapper">
                     <div class="swiper-slide slide-item">
                         <div class="item1">
@@ -152,10 +153,10 @@
                         <img src="img/голова.png" alt="голова">
                     </div>
                     <div class="swiper-pagination"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+
                 </div>
             </div>
+             </div>    
                
         </div>
     </section>
@@ -165,24 +166,21 @@
     <section></section>
     <script src="script/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper(".slider", {
           slidesPerView: 3,
           spaceBetween: 59,
           pagination: {
-            el: ".swiper-pagination",
+            el: ".green-pagination",
             clickable: true,
-          },
-        navigation: {
-                        nextEl: ".button-next",
-                        prevEl: ".button-prev",
-        },
+          },    
             loop: true,
             autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-        },
-     });
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+        });
       </script>
 </body>
 </html>
